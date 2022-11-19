@@ -40,7 +40,7 @@ h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 70px;
   z-index: 996;
   background: #0563bb;
   width: 40px;
@@ -63,6 +63,33 @@ h6 {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# WhatsApp Floating Action button
+--------------------------------------------------------------*/
+
+.floating-action-btn {
+  position: fixed;
+  visibility: visible;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #25D366;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.floating-action-btn i {
+  font-size: 20px;
+  color: #fff;
+  line-height: 0;
+}
+
+.floating-action-btn:hover {
+  background: #21bd5a;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
